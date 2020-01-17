@@ -1,13 +1,4 @@
 
-declare class ENUM {
-
-	SECOND: string;
-	MINUTE: string;
-	HOUR: string;
-	DAY: string;
-
-}
-
 declare class Delay {
 
 	second(n: number): number;
@@ -22,20 +13,18 @@ declare class Delay {
 
 }
 
-declare class Time {
+declare class TimeKeeper {
 
 	hrtime(): number;
 	now(): number;
 
 }
 
-declare class TimeModule {
-
-	ENUM: ENUM;
-	delay(a?: number): Delay;
-	time: Time;
-
-}
-
-declare const _default: TimeModule;
-export default _default;
+export const ENUM: {
+	SECOND: string;
+	MINUTE: string;
+	HOUR: string;
+	DAY: string;
+};
+export const time: TimeKeeper;
+export const delay: (a?: number) => Delay;
