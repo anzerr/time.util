@@ -47,7 +47,7 @@ class Delay {
 		return this.day(n);
 	}
 
-	get() {
+	get get() {
 		if (!is.number(this._n)) {
 			throw new Error('value is NaN where all your arguments numbers?');
 		}

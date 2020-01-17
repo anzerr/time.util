@@ -1,14 +1,19 @@
 {
 	"name": "time.util",
 	"version": "1.0.0",
-	"keywords": [],
-	"homepage": "https://github.com/undefined#readme",
+	"description": "time util",
+	"keywords": [
+		"nodejs",
+		"time",
+		"util"
+	],
+	"homepage": "https://github.com/anzerr/time.util#readme",
 	"bugs": {
-		"url": "https://github.com/undefined/issues"
+		"url": "https://github.com/anzerr/time.util/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "git@github.com:anzerr/time.util.git"
 	},
 	"license": "MIT",
 	"author": "anzerr",
@@ -29,6 +34,5 @@
 	},
 	"engines": {
 		"node": ">= 0.10.0"
-	},
-	"description": ""
+	}
 }
