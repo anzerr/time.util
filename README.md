@@ -8,6 +8,7 @@ small time util
 #### `Install`
 ``` bash
 npm install --save git+https://git@github.com/anzerr/time.util.git
+npm install --save @anzerr/time.util
 ```
 
 ### `Example`
