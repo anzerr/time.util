@@ -1,14 +1,14 @@
 
 declare class Delay {
 
-	second(n: number): number;
-	minute(n: number): number;
-	hour(n: number): number;
-	day(n: number): number;
-	s(n: number): number;
-	m(n: number): number;
-	h(n: number): number;
-	d(n: number): number;
+	second(n: number): Delay;
+	minute(n: number): Delay;
+	hour(n: number): Delay;
+	day(n: number): Delay;
+	s(n: number): Delay;
+	m(n: number): Delay;
+	h(n: number): Delay;
+	d(n: number): Delay;
 	get(): number;
 
 }
