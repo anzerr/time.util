@@ -9,7 +9,7 @@ declare class Delay {
 	m(n: number): Delay;
 	h(n: number): Delay;
 	d(n: number): Delay;
-	get(): number;
+	get: number;
 
 }
 
