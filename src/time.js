@@ -4,7 +4,7 @@ class Time {
 
 	constructor() {
 		this._ref = {
-			epoch: Date.now(),
+			epoch: this.now(),
 			valid: true,
 			start: process.hrtime()
 		};
@@ -16,7 +16,8 @@ class Time {
 	}
 
 	now() {
-		return Date.now();
+		const d = new Date();
+		return d.getTime() + (d.getTimezoneOffset() * 60000);
 	}
 
 }
