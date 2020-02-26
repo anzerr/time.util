@@ -16,8 +16,7 @@ class Time {
 	}
 
 	now() {
-		const d = new Date();
-		return d.getTime() + (d.getTimezoneOffset() * 60000);
+		return Date.now();
 	}
 
 }
