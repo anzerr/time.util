@@ -12,22 +12,22 @@ class Delay {
 	}
 
 	second(n) {
-		this._n = TIME.SECOND * n;
+		this._n += TIME.SECOND * n;
 		return this;
 	}
 
 	minute(n) {
-		this._n = TIME.MINUTE * n;
+		this._n += TIME.MINUTE * n;
 		return this;
 	}
 
 	hour(n) {
-		this._n = TIME.HOUR * n;
+		this._n += TIME.HOUR * n;
 		return this;
 	}
 
 	day(n) {
-		this._n = TIME.DAY * n;
+		this._n += TIME.DAY * n;
 		return this;
 	}
 
