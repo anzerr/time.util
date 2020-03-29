@@ -30,4 +30,4 @@ setTimeout(() => {
 	assert.equal(Math.floor(time.hrtime() / 100), Math.floor(time.now() / 100));
 }, 1000 * 10);
 
-assert.equal(delay(100).second(5).minute(1.3).get, 78000);
+assert.equal(delay(100).second(5).minute(1.3).get, 83100);
